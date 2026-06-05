@@ -51,7 +51,7 @@
             bindings = <
 &trans  &trans            &trans            &trans            &trans            &trans                             &trans            &trans            &trans        &trans      &trans      &trans
 &trans  &kp LS(NUMBER_1)  &kp LS(NUMBER_2)  &kp LS(NUMBER_3)  &kp LS(NUMBER_4)  &kp LS(N5)                         &kp LS(NUMBER_6)  &kp LS(NUMBER_6)  &kp LS(N7)    &kp LS(N8)  &kp LS(N9)  &trans
-&trans  &kp QUESTION      &kp LEFT_BRACE    &kp LS(N8)        &kp LS(N9)        &kp RIGHT_BRACE    &trans  &trans  &kp LEFT          &kp DOWN          &kp UP_ARROW  &kp RIGHT   &kp TAB     &trans
+&trans  &kp QUESTION      &kp LEFT_BRACE    &kp LS(N8)        &kp LS(N9)        &kp RIGHT_BRACE    &trans  &trans  &kp LEFT          &kp DOWN          &kp UP_ARROW  &kp RIGHT   &kp ESC     &trans
 &trans  &kp AT_SIGN       &kp LEFT_BRACKET  &kp LESS_THAN     &kp GREATER_THAN  &kp RIGHT_BRACKET  &trans  &trans  &kp SINGLE_QUOTE  &kp DQT           &kp GRAVE     &kp TILDE   &kp PIPE    &trans
 &trans  &trans            &trans            &trans            &kp DELETE        &kp TAB            &trans  &trans  &trans            &trans            &trans        &trans      &trans      &trans
             >;
