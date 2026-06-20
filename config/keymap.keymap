@@ -39,11 +39,11 @@
 
         layer_2 {
             bindings = <
-&trans  &trans  &trans  &trans  &trans   &trans                              &trans  &trans  &trans        &trans     &trans            &trans
-&trans  &kp F7  &kp F8  &kp F9  &kp F12  &kp HOME                            &kp N7  &kp N8  &kp N9        &kp PLUS   &kp LS(ASTERISK)  &trans
-&trans  &kp F4  &kp F5  &kp F6  &kp F11  &kp PAGE_UP    &trans   &trans      &kp N4  &kp N5  &kp NUMBER_6  &kp MINUS  &kp SLASH         &trans
-&trans  &kp F1  &kp F2  &kp F3  &kp F10  &kp PAGE_DOWN  &kp END  &kp PERIOD  &kp N1  &kp N2  &kp NUMBER_3  &kp EQUAL  &kp BACKSLASH     &trans
-&trans  &trans  &trans  &trans  &trans   &trans         &trans   &kp COMMA   &kp N0  &none   &trans        &trans     &trans            &trans
+&trans  &trans  &trans  &trans  &trans   &trans                              &trans  &trans  &trans        &trans     &trans             &trans
+&trans  &kp F7  &kp F8  &kp F9  &kp F12  &kp HOME                            &kp N7  &kp N8  &kp N9        &kp COLON  &kp LS(SEMICOLON)  &trans
+&trans  &kp F4  &kp F5  &kp F6  &kp F11  &kp PAGE_UP    &trans   &trans      &kp N4  &kp N5  &kp NUMBER_6  &kp MINUS  &kp SLASH          &trans
+&trans  &kp F1  &kp F2  &kp F3  &kp F10  &kp PAGE_DOWN  &kp END  &kp PERIOD  &kp N1  &kp N2  &kp NUMBER_3  &kp EQUAL  &kp BACKSLASH      &trans
+&trans  &trans  &trans  &trans  &trans   &trans         &trans   &kp COMMA   &kp N0  &none   &trans        &trans     &trans             &trans
             >;
         };
 
