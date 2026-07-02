@@ -21,7 +21,7 @@
             bindings = <
 &none           &none         &none         &none                &none                &none                                                          &none        &none     &none      &none     &none          &none
 &kp ESC         &kp Q         &kp W         &kp E                &kp R                &kp T                                                          &kp Y        &kp U     &kp I      &kp O     &lt 1 P        &kp BACKSPACE
-&kp TAB         &kp A         &kp S         &kp D                &kp F                &kp G        &mkp LCLK                  &mkp RCLK              &kp H        &kp J     &kp K      &kp L     &kp SEMICOLON  &mt COLON MINUS
+&kp TAB         &kp A         &kp S         &kp D                &kp F                &kp G        &mkp LCLK                  &mkp RCLK              &kp H        &kp J     &kp K      &kp L     &kp SEMICOLON  &mt SINGLE_QUOTE MINUS
 &kp LEFT_SHIFT  &kp Z         &kp X         &kp C                &kp V                &kp B        &kp SPACE                  &kp RET                &kp N        &kp M     &kp COMMA  &kp DOT   &mt SLASH UP   &kp INTERNATIONAL_1
 &kp LCTRL       &kp LEFT_WIN  &kp LEFT_ALT  &kp INTERNATIONAL_3  &kp INTERNATIONAL_4  &lt 2 SPACE  &mt LEFT_SHIFT LANGUAGE_2  &mt RSHIFT LANGUAGE_1  &lt 3 ENTER  &kp BSPC  &kp RALT   &kp LEFT  &kp DOWN       &kp RIGHT
             >;
@@ -49,11 +49,11 @@
 
         layer_3 {
             bindings = <
-&trans  &trans            &trans            &trans            &trans            &trans                             &trans            &trans            &trans        &trans         &trans      &trans
-&trans  &kp LS(NUMBER_1)  &kp LS(NUMBER_2)  &kp LS(NUMBER_3)  &kp LS(NUMBER_4)  &kp LS(N5)                         &kp LS(NUMBER_6)  &kp LS(NUMBER_6)  &kp LS(N7)    &kp LS(N8)     &kp LS(N9)  &trans
-&trans  &kp QUESTION      &kp LEFT_BRACE    &kp LS(N8)        &kp LS(N9)        &kp RIGHT_BRACE    &trans  &trans  &kp LEFT          &kp DOWN          &kp UP_ARROW  &kp RIGHT      &kp ESC     &trans
-&trans  &kp AT_SIGN       &kp LEFT_BRACKET  &kp LESS_THAN     &kp GREATER_THAN  &kp RIGHT_BRACKET  &trans  &trans  &kp SINGLE_QUOTE  &kp DQT           &kp COLON     &kp SEMICOLON  &kp PIPE    &trans
-&trans  &trans            &trans            &trans            &kp DELETE        &kp TAB            &trans  &trans  &trans            &trans            &trans        &trans         &trans      &trans
+&trans  &trans            &trans                 &trans            &trans            &trans                             &trans                &trans            &trans        &trans                &trans      &trans
+&trans  &kp LS(NUMBER_1)  &kp LS(NUMBER_2)       &kp LS(NUMBER_3)  &kp LS(NUMBER_4)  &kp LS(N5)                         &kp LS(NUMBER_6)      &kp LS(NUMBER_6)  &kp LS(N7)    &kp LS(N8)            &kp LS(N9)  &trans
+&trans  &kp QUESTION      &kp LS(RIGHT_BRACKET)  &kp LS(N8)        &kp LS(N9)        &kp LS(BACKSLASH)  &trans  &trans  &kp LEFT              &kp DOWN          &kp UP_ARROW  &kp RIGHT             &kp ESC     &trans
+&trans  &kp AT_SIGN       &kp RIGHT_BRACKET      &kp LS(COMMA)     &kp LS(PERIOD)    &kp BACKSLASH      &trans  &trans  &kp LS(SINGLE_QUOTE)  &kp LS(NUMBER_2)  &kp SEMI      &kp LS(SINGLE_QUOTE)  &kp PIPE    &trans
+&trans  &trans            &trans                 &trans            &kp DELETE        &kp TAB            &trans  &trans  &trans                &trans            &trans        &trans                &trans      &trans
             >;
         };
 
