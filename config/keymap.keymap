@@ -52,7 +52,7 @@
 &trans  &trans            &trans                 &trans            &trans            &trans                             &trans            &trans            &trans        &trans            &trans      &trans
 &trans  &kp LS(NUMBER_1)  &kp LS(NUMBER_2)       &kp LS(NUMBER_3)  &kp LS(NUMBER_4)  &kp LS(N5)                         &kp LS(NUMBER_6)  &kp LS(NUMBER_6)  &kp LS(N7)    &kp LS(N8)        &kp LS(N9)  &trans
 &trans  &kp QUESTION      &kp LS(RIGHT_BRACKET)  &kp LS(N8)        &kp LS(N9)        &kp LS(BACKSLASH)  &trans  &trans  &kp LEFT          &kp DOWN          &kp UP_ARROW  &kp RIGHT         &kp ESC     &trans
-&trans  &kp AT_SIGN       &kp RIGHT_BRACKET      &kp LS(COMMA)     &kp LS(PERIOD)    &kp BACKSLASH      &trans  &trans  &kp LS(NUMBER_7)  &kp LS(NUMBER_2)  &kp SEMI      &kp SINGLE_QUOTE  &kp PIPE    &trans
+&trans  &kp LEFT_BRACKET  &kp RIGHT_BRACKET      &kp LS(COMMA)     &kp LS(PERIOD)    &kp BACKSLASH      &trans  &trans  &kp LS(NUMBER_7)  &kp LS(NUMBER_2)  &kp SEMI      &kp SINGLE_QUOTE  &kp PIPE    &trans
 &trans  &trans            &trans                 &trans            &kp DELETE        &kp TAB            &trans  &trans  &trans            &trans            &trans        &trans            &trans      &trans
             >;
         };
